@@ -60,7 +60,6 @@ const Cart = () => {
   const [openDialog, setOpenDialog] = useState(false);
   const [selectedContent, setSelectedContent] = useState();
 
- 
   let navigate = useNavigate();
   // const navigate = useNavigate();
   const handleClickOpen = (item) => {
@@ -88,7 +87,6 @@ const Cart = () => {
         .then((data) => {
           console.log("data images", data.data.data);
 
-     
           setIsOpen(true);
           setMessage("Data Loaded!");
           setSeverity("success");
@@ -137,9 +135,10 @@ const Cart = () => {
               <Button
                 variant="contained"
                 sx={{ background: "maroon", color: "white" }}
-                onClick={()=>{
-                  Navigate("/checkout")
+                onClick={() => {
+                  Navigate("/checkout");
                 }}
+                disabled={cart?.length <= 0}
               >
                 check out
               </Button>
