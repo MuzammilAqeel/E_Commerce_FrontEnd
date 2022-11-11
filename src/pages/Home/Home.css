@@ -1,0 +1,25 @@
+.heroDiv {
+    height: 100vh;
+    width: 100vw;
+    /* background-image: url(../../assets/banner.jpg); */
+    /* background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-attachment: fixed;
+    background-position: center bottom; */
+    /* object-fit: cover; */
+}
+
+.heroDiv video {
+    position: inherit;
+}
+
+@media only screen and (max-width: 1000px) {
+    .heroDiv {
+        height: 33vh !important;
+        /* background-position: 0 10vh; */
+    }
+
+    .heroDiv video {
+        margin-top: 8vh;
+    }
+}

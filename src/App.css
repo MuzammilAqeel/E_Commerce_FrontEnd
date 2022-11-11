@@ -1,0 +1,14 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+a{
+  color: inherit;
+}
+
+:root{
+  --navbarBackground: #ec0606;
+  --white: rgb(15, 15, 15) ;
+}

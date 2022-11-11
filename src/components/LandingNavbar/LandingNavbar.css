@@ -1,0 +1,28 @@
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.mainNavbar{
+    height: 9vh;
+    background-color: var(--navbarBackground);
+    position: fixed;
+    /* z-index: 99999999999; */
+    background: rgba(250, 2, 2, 0.1);
+}
+
+.menuOptions span {
+    cursor: pointer;
+    color: var(--white);
+    font-weight: bold;
+}
+.css-1160xiw-MuiPaper-root-MuiDrawer-paper{
+    background-color: var(--navbarBackground) !important;
+    color: rgb(22, 1, 1) !important;
+    font-weight: bold !important;
+}
+
+.css-jcn4dz-MuiBadge-badge{
+    color: white !important;
+}
