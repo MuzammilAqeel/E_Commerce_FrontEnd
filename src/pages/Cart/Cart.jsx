@@ -138,8 +138,9 @@ const Cart = () => {
                 onClick={() => {
                   Navigate("/checkout");
                 }}
-                disabled={cart?.length <= 0}
+                disabled={cart == null}
               >
+
                 check out
               </Button>
             </Grid>

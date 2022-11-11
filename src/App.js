@@ -6,6 +6,8 @@ import MainRoutes from './pages/Routes/Routes';
 import { store, persistor } from "./redux/store";
 
 function App() {
+
+  console.log = () => {};
   return (
     <Provider store={store} >
       <PersistGate persistor={persistor}>
